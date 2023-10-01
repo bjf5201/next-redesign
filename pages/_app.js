@@ -7,7 +7,7 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link
+        <ink
           rel="alternate"
           type="application/rss+xml"
           title="RSS"
