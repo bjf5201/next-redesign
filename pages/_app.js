@@ -19,6 +19,10 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <link
+          rel="stylesheet"
+          href="/styles/tail.css"
+        />
       </Head>
       <Component {...pageProps} />
     </>
